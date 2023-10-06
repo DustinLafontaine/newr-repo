@@ -1,0 +1,26 @@
+h1, h2, h3 {
+    color: blueviolet;
+    background-color: yellow;
+    display: inline-block;
+}
+
+p {
+    border: solid 4px lightgreen;
+    padding: 25px;
+    
+}
+
+.special-header {
+    color: orange;
+}
+
+table, td, th {
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    text-decoration: underline;
+    background-color: lightgray;
+}

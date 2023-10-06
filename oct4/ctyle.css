@@ -1,0 +1,70 @@
+h1 {
+    color: blue;
+}
+header {
+    width: 100vw;
+    background-color: rgb(255, 145, 0);
+    color: rgb(0, 255, 21);
+    height: 100px;
+
+}
+nav {
+
+}
+a {
+    color: bisque;
+}
+
+.box    {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+div {
+    color: red;
+    font-weight: bold;
+}
+#spec {
+    color: violet;
+}
+.inficity {
+    color: blue;
+}
+.container {
+    margin: 10px;
+    border: 2px solid purple;
+    color: black;
+    font-weight: 400;
+}
+.container > p {
+    font-size: 50px;
+}
+
+.container *{
+    margin-left: 10px;
+    background-color: blue;
+    width: fit-content;
+}
+.units {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+p.px {
+    font-size: 50px;
+}
+p.em {
+    font-size: 1em;
+}
+body {
+    width: 100vh;
+    min-height: 50vh;
+}

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: gray;
+}
+main {
+    width: 80vw;
+    min-height: 80vh;
+    margin: 10px auto;
+    background-color: aqua;
+}
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: gray;
+}
+h1 {
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 5px;
+}

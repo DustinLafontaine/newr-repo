@@ -1,0 +1,36 @@
+div
+h1, h2, h3
+
+
+style {
+background-color: black;
+
+}
+
+
+
+h1
+{
+
+}
+p {
+    border: solid 4px black
+    padding: 5px;
+    text-align: center
+    
+}
+div {
+    background-color: yellow; 
+    display: inline-block; 
+    border: solid; width: 40%; height: 180px;
+    font-size: x-large; 
+    font-variant: small-caps;
+
+}
+footer {position: right;
+    top: 20px;
+    right: 30px;
+
+}
+
+

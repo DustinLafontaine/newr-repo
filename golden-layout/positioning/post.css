@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    height: 300vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.canvas {
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh auto;
+    border: 0.5em solid; color: yellow;
+    position: relative;
+}
+
+
+
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: left 100%;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#circle-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#box-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#circle2 {
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+nav{
+    float: right;
+}
+nav > a {
+    color: azure;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+h1
