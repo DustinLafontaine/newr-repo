@@ -1,2 +1,2 @@
 let string = "hello world"
-console.log(hello)
+console.log(string)
